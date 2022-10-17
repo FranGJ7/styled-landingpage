@@ -9,9 +9,9 @@ import {
 export const Header = ({ actualTheme, changeTheme }) => {
   return (
     <Container>
-        <Logo/>
+        <Logo themeImage={actualTheme.title}/>
       <NavContainer>
-        {/*<ChangeTheme themeImage={actualTheme.title} onClick={changeTheme} />*/}
+       <ChangeTheme themeImage={actualTheme.title} onClick={changeTheme} />
         <NavItem>Início</NavItem>
         <NavItem>Contatos</NavItem>
         <NavItem>Sobre nós</NavItem>
